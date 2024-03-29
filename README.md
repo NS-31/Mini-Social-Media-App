@@ -20,7 +20,7 @@ Please check below guideline to create project in Firebase.
 
 Open Config.js file from project and add your details. 
 
-
+```
 export default {
     "expo": {
       name: "SocialApp",
@@ -41,11 +41,12 @@ export default {
       }
     }
   }
+```
 
 
 Open file firebase.ts (Mini-Social-Media-App/src/config/firebase.ts)
 
-
+```
 const firebaseConfig = {
   apiKey: "ENTER_YOUR_API_KEY",
   authDomain: "ENTER_YOUR_DOMAIN",
@@ -55,7 +56,7 @@ const firebaseConfig = {
   appId: "ENTER_YOUR_APP_ID",
   measurementId: "ENTER_YOUR_MEASUREMENT_ID"
 };
-
+```
 
 ## How to run project
 
